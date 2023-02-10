@@ -52,10 +52,11 @@ Fill in the access key Id and the secret access key to connect and have access t
 
 [S3]
 AWS_ACCESS_KEY_ID=
+
 AWS_SECRET_ACCESS_KEY=
 
 # To initiate the ETL pipeline
 
 Run python etl.py on the terminal
-when success the preview will be displayed
+if success the preview will be displayed
 

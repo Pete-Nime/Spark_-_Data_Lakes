@@ -25,7 +25,14 @@ start_time, hour, day, week, month, year, weekday
 <img width="1283" alt="Screen Shot 2023-02-10 at 12 24 50 PM" src="https://user-images.githubusercontent.com/103359089/217999352-9c5d2f94-3f42-43ac-8de6-991206cd8425.png">
 
 
-# Project Template
+##### Project Datasets
+
+Song data: s3://udacity-dend/song_data
+Log data: s3://udacity-dend/log_data
+
+
+
+##### Project Template
 
 etl.py reads data from S3, processes that data using Spark, and writes them back to S3
 dl.cfgcontains  AWS credentials

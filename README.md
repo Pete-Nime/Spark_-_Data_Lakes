@@ -46,4 +46,16 @@ A music streaming startup, Sparkify, has grown their user base and song database
 They request a  data engineer to building an ETL pipeline that extracts their data from S3, processes them using Spark, and loads the data back into S3 as a set of dimensional tables.
 
 
+# Executing
+
+Fill in the access key Id and the secret access key to connect and have access to S3 bucket.
+
+[S3]
+AWS_ACCESS_KEY_ID=
+AWS_SECRET_ACCESS_KEY=
+
+# To initiate the ETL pipeline
+
+Run python etl.py on the terminal
+when success the preview will be displayed
 

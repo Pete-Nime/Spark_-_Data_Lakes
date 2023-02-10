@@ -58,5 +58,5 @@ AWS_SECRET_ACCESS_KEY=
 # To initiate the ETL pipeline
 
 Run python etl.py on the terminal
-if success the preview will be displayed
+if successful the preview will be displayed
 

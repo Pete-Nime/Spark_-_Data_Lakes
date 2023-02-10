@@ -6,12 +6,12 @@
 
 ## Schema for Song Play Analysis
 
-### Fact Table
+##### Fact Table
 
 songplays - records in log data associated with song plays i.e. records with page NextSong
 songplay_id, start_time, user_id, level, song_id, artist_id, session_id, location, user_agent
 
-### Dimension Tables
+######## Dimension Tables
 
 users - users in the app
 user_id, first_name, last_name, gender, level
@@ -37,3 +37,6 @@ README.md provides discussion on the over all project
 A music streaming startup, Sparkify, has grown their user base and song database even more and want to move their data warehouse to a data lake. Their data resides in S3, in a directory of JSON logs on user activity on the app, as well as a directory with JSON metadata on the songs in their app.
 
 They request a  data engineer to building an ETL pipeline that extracts their data from S3, processes them using Spark, and loads the data back into S3 as a set of dimensional tables.
+
+
+
